@@ -1,0 +1,33 @@
+{
+  "name": "Gantt-chart",
+  "version": "1.0.0",
+  "description": "甘特图",
+  "main": "index.js",
+  "scripts": {
+    "dev": "supervisor index.js",
+    "start": "node index.js"
+  },
+  "bin": {
+    "server": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YuNiang/Gantt-chart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/YuNiang/Gantt-chart.git#readme",
+  "keywords": [
+    "Gantt-chart"
+  ],
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "handlebars": "^4.0.11",
+    "mime": "^2.2.0",
+    "pem": "^1.12.5",
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
